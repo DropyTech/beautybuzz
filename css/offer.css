@@ -1,0 +1,73 @@
+/* offer */
+.cards-f {
+  padding-top: 4rem;
+  padding-bottom: 1.625rem;
+  text-align: center;
+  background: #ffffff;
+}
+
+.cards-f h2 {
+  margin-bottom: 1rem;
+  color: #2e2e2e;
+}
+
+.cards-f .card {
+  max-width: 25rem;
+  margin-right: auto;
+  margin-bottom: 4.5rem;
+  margin-left: auto;
+  padding: 3rem 3rem 3rem 3rem;
+  box-shadow: 1px 3px 7px 0px #0000001a;
+  border: 0px solid #c4d8dc;
+  border-radius: 0.5rem;
+  background: #e6eef9;
+}
+
+.cards-f .card-image {
+  width: 6rem;
+  height: 6rem;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.cards-f .card-image-tech {
+  width: 6rem;
+  height: 6rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cards-f h3 {
+  margin-top: 10px;
+  color: #000000;
+}
+.cards-f p {
+  color: #333333;
+}
+.cards-f .card-body {
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .cards-f .card {
+    display: inline-block;
+    max-width: 17.125rem;
+    vertical-align: top;
+  }
+
+  .cards-f .col-lg-12 div.card:nth-child(3n + 2) {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cards-f .card {
+    max-width: 21rem;
+  }
+
+  .cards-f .col-lg-12 div.card:nth-child(3n + 2) {
+    margin-right: 2.875rem;
+    margin-left: 2.875rem;
+  }
+}
